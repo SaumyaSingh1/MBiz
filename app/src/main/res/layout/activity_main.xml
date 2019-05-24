@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:background="#fff"
+    android:background="0xF7F7F7"
     android:layout_marginTop="5dp"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -12,24 +12,23 @@
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="220dp"
         android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/splashscreen"
-            android:layout_width="179dp"
-            android:layout_height="105dp"
+            android:layout_width="500px"
+            android:layout_height="500px"
             android:layout_gravity="center"
             android:scaleType="fitCenter"
-
             android:src="@drawable/f"
             tools:ignore="ContentDescription" />
 
         <ImageView
             android:src="@drawable/frame"
             android:layout_gravity="center"
-            android:layout_width="119dp"
-            android:layout_height="119dp"
+            android:layout_width="500px"
+            android:layout_height="500px"
             tools:ignore="ContentDescription" />
     </FrameLayout>
 
