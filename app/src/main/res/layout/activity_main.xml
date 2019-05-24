@@ -10,25 +10,25 @@
     tools:context=".MainActivity">
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_marginTop="220dp"
-        android:layout_height="wrap_content">
+       >
 
         <ImageView
             android:id="@+id/splashscreen"
-            android:layout_width="500px"
-            android:layout_height="500px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:scaleType="fitCenter"
             android:src="@drawable/f"
             tools:ignore="ContentDescription" />
 
         <ImageView
-            android:src="@drawable/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_width="500px"
-            android:layout_height="500px"
+            android:src="@drawable/frame"
             tools:ignore="ContentDescription" />
     </FrameLayout>
 
